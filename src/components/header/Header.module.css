@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
+    gap: 0.5rem;
 }
 
 .logo>img {
@@ -29,6 +30,8 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
+
+
 }
 
 .menu {
@@ -36,6 +39,8 @@
     gap: 2rem;
     font-weight: 500;
     list-style: none;
+
+
 }
 
 .menu>li:hover {
@@ -51,4 +56,10 @@
     border: none;
     border-radius: 5px;
     padding: 0.5rem;
+}
+
+.cart {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
 }
