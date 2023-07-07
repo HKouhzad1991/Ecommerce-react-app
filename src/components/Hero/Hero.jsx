@@ -1,12 +1,15 @@
-import React from 'react'
-import "./Hero.module.css"
+import React from "react";
+import "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <div>
-      hero
-    </div>
-  )
-}
+    <div className={CSS.container}>
+      {/* left side */}
+      <div className={css.h_sides}></div>
 
-export default Hero
+      <span>Skin Protection Cream</span>
+    </div>
+  );
+};
+
+export default Hero;
