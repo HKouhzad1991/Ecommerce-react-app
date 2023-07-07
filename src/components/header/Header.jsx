@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Header.module.css";
 import AMAZON from "../../assets/amazon/Amazon-Logo-PNG-Transparent@zeevector.png";
+import { CgShoppingBag } from "react-icons/cg";
 
 const Header = () => {
   return (

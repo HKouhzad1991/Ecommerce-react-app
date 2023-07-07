@@ -6,13 +6,30 @@
 
 .logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .logo>img {
-    width: 3.8rem;
+    width: 5rem;
     height: 2rem;
 }
-.logo>span{
+
+.logo>span {
     font-weight: 500;
+    gap: 1rem;
+    
+}
+
+.right {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+display: flex;
+gap: 2rem;
+font-weight: 500;
+list-style: none;
 }
