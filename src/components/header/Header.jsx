@@ -9,6 +9,7 @@ const Header = () => {
       <div className={css.right}>
               <div className={css.menu}></div>
               <input type="text" className={css.search} />
+              <span>PNG icon of card</span>
       </div>
     </div>
   );
