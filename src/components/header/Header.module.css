@@ -1,15 +1,18 @@
-.container{
+.container {
     padding: 1.5rem;
     display: flex;
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo>img{
-    width: 2.5rem;
-    height: 2.5rem;
+.logo>img {
+    width: 3.8rem;
+    height: 2rem;
+}
+.logo>span{
+    font-weight: 500;
 }
