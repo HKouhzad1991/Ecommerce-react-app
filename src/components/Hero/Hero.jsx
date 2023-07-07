@@ -1,13 +1,22 @@
 import React from "react";
-import "./Hero.module.css";
+import css from "./Hero.module.css";
+import sunskin from "../../assets/sun cream2/4_vinosun_cream_spf50_ingredients_caudalie_en.avif";
 
 const Hero = () => {
   return (
     <div className={CSS.container}>
       {/* left side */}
-      <div className={css.h_sides}></div>
 
-      <span>Skin Protection Cream</span>
+      <div className={css.h_sides}>
+        <span>Skin Protection Cream</span>
+        <div className="sunskin-img">
+          <img src={sunskin} alt="" />
+        </div>
+
+        <div className={css.text2}>
+          <span>Trendy Collection</span>
+        </div>
+      </div>
     </div>
   );
 };
