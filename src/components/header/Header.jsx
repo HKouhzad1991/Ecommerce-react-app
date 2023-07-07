@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./Header.module.css";
-// import Logo from "../../assets/logo.png";
 import AMAZON from "../../assets/amazon/Amazon-Logo-PNG-Transparent@zeevector.png";
 
 const Header = () => {
@@ -13,13 +12,14 @@ const Header = () => {
 
       <div className={css.right}>
         <div className={css.menu}>
-                  <ul className={css.menu}>
-                  <li>Collection</li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  </ul>
+          <ul className={css.menu}>
+            <li>Collection</li>
+            <li>Brands</li>
+            <li>New</li>
+            <li>Sales</li>
+            <li>Gallery</li>
+            <li>ENG</li>
+          </ul>
         </div>
         <input type="text" className={css.search} />
         <span>PNG icon of card</span>
