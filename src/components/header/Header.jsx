@@ -22,7 +22,7 @@ const Header = () => {
           </ul>
         </div>
         <input type="text" className={css.search} />
-        <span>PNG icon of card</span>
+        <CgShoppingBag className={css.cart} />
       </div>
     </div>
   );
