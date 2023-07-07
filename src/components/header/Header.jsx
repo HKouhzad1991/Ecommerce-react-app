@@ -1,12 +1,14 @@
 import React from "react";
 import css from "./Header.module.css";
-import Logo from "../../assets/logo.png";
+// import Logo from "../../assets/logo.png";
+import AMAZON from "../../assets/amazon/Amazon-Logo-PNG-Transparent@zeevector.png";
+
 
 const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.logo}>
-        <img src={Logo} alt="" />
+        <img src={AMAZON} alt="" />
         <span>AMAZON HK</span>
       </div>
 
