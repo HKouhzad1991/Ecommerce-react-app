@@ -1,8 +1,17 @@
 import React from "react";
-import "./Header.module.css";
+import css from "./Header.module.css";
 
 const Header = () => {
-  return <div>header</div>;
+  return (
+    <div className={css.container}>
+      <div className={css.logo}>logo</div>
+
+      <div className={css.right}>
+              <div className={css.menu}></div>
+              <input type="text" className={css.search} />
+      </div>
+    </div>
+  );
 };
 
 export default Header;
