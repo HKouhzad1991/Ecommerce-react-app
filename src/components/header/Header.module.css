@@ -14,9 +14,11 @@
 
 .logo>img {
     width: 5rem;
-    height: 2rem;
     margin-right: 25rem;
+
 }
+
+
 
 .logo>span {
     font-weight: 500;

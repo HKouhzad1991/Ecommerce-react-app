@@ -1,13 +1,13 @@
 import React from "react";
 import css from "./Header.module.css";
-import AMAZON from "../../assets/amazon/Amazon-Logo-PNG-Transparent@zeevector.png";
+import AMAZON from "../../assets/beauty/logo.svg";
 import { CgShoppingBag } from "react-icons/cg";
 
 const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.logo}>
-        <img src={AMAZON} alt="" />
+        <img src={AMAZON} alt=""/>
         <span>Hossein Kouhzad</span>
       </div>
 

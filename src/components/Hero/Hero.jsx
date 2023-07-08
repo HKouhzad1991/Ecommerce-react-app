@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Hero.module.css";
 import sunskin from "../../assets/sun cream2/4_vinosun_cream_spf50_ingredients_caudalie_en.avif";
-import HeroImg from "../../assets/hero.png";
+import HeroImg from "../../assets/beauty/13990-[Converted] 5.png";
 import { RiShoppingBagFill } from "react-icons/ri"
 import { BsArrowRight } from "react-icons/bs"
 
