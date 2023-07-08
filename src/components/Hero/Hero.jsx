@@ -21,6 +21,9 @@ const Hero = () => {
           </span>
         </div>
         {/*middle side hero image  */}
+        <div className={css.wrapper}>
+          <div className={css.blueCircle}></div>
+        </div>
       </div>
     </div>
   );
