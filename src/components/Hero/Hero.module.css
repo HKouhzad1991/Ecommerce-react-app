@@ -47,6 +47,8 @@
     border: 3px solid #53777a;
     position: relative;
     right: 40%;
+    cursor: pointer;
+
 }
 
 .signup {
@@ -61,11 +63,13 @@
     border: 2px solid #53777a;
     position: relative;
     right: 40%;
+    cursor: pointer;
 }
 
 .signup>:first-child {
     display: block;
     width: 6.5rem;
+    cursor: pointer;
 
 }
 
@@ -76,9 +80,9 @@
     width: 20px;
     height: 20px;
     padding: 5px;
+    font-size: larger;
     align-items: center;
     justify-content: center;
-
 
 }
 
