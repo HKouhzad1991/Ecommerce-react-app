@@ -2,7 +2,7 @@
     padding: 0rem 2rem;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    
+
 }
 
 .wrapper {
@@ -38,8 +38,13 @@
     align-items: center;
 }
 
-.cart>svg{
-    
+.cart2>svg {
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+   border: ;
 }
 
 .h_sides {
