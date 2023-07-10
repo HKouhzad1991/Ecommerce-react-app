@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Swiper from "swiper";
 
 const Slider = () => {
   return (
-    <div>
-      
+    <div className="s-container">
+      <Swiper></Swiper>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default Slider;
