@@ -1,10 +1,11 @@
 import React from "react";
-import Swiper from "swiper";
-
+import { Swiper, SwiperSlide } from "swiper";
 const Slider = () => {
   return (
     <div className="s-container">
-      <Swiper></Swiper>
+      <Swiper>
+        <SwiperSlide></SwiperSlide>
+      </Swiper>
     </div>
   );
 };
