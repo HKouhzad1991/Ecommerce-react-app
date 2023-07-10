@@ -45,7 +45,8 @@
     padding: 10px;
     border-radius: 50%;
     border: 3px solid #53777a;
-    ;
+    position: relative;
+    right: 40%;
 }
 
 .signup {
@@ -58,13 +59,14 @@
     border-radius: 15px;
     box-shadow: var(--shadow1);
     border: 2px solid #53777a;
-    ;
-
+    position: relative;
+    right: 40%;
 }
 
 .signup>:first-child {
     display: block;
-    width: 6rem;
+    width: 6.5rem;
+
 }
 
 .signup>:nth-child(2) {
