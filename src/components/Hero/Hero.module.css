@@ -44,7 +44,7 @@
     background: white;
     padding: 10px;
     border-radius: 50%;
-   border: ;
+    border: 6px solid var(--black);
 }
 
 .h_sides {
