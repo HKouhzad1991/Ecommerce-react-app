@@ -1,14 +1,15 @@
 import React from "react";
 import css from "./Header.module.css";
-import AMAZON from "../../assets/beauty/logo.svg";
+import Logo from "../../assets/logo.png";
 import { CgShoppingBag } from "react-icons/cg";
 
 const Header = () => {
   return (
+    
     <div className={css.container}>
       <div className={css.logo}>
-        <img src={AMAZON} alt=""/>
-        <span>Hossein Kouhzad</span>
+        <img src={Logo} alt=""/>
+        <span>Hossein kouhzad</span>
       </div>
 
       <div className={css.right}>
