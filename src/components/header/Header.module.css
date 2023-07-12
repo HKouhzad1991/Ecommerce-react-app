@@ -21,9 +21,11 @@
 
 
 .logo>span {
-    font-weight: 300;
-    gap: 1rem;
+    font-weight: 500;
+    /* gap: 1rem; */
     margin-right: 25rem;
+    color: #d68189;
+    font-size: 1.2rem;
 
 }
 
@@ -55,9 +57,10 @@
 .search {
     width: 7rem;
     outline: none;
-    border: none;
+    border: 0.5px solid rgb(114, 103, 103);
     border-radius: 5px;
     padding: 0.5rem;
+    background-color: #d68189;
 }
 
 .cart {
