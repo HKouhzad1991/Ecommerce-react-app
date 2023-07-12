@@ -24,7 +24,44 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.text{
+.text1 {
     text-transform: uppercase;
     font-size: 1.5;
+    width: min-content;
+    display: block;
+    font-weight: 600;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    color: black;
+}
+
+.text2>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.text2>:nth-child(2) {
+    display: block;
+
+}
+
+.traffic {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.traffic>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }

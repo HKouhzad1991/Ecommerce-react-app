@@ -10,7 +10,7 @@ const Hero = () => {
       {/* left side */}
 
       <div className={css.h_sides}>
-        <span>Skin Protection Cream</span>
+        <span className={css.text1}>Skin Protection Cream</span>
 
         <div className={css.text2}>
           <span>Trendy Collection</span>
@@ -41,10 +41,11 @@ const Hero = () => {
 
       <div className={css.h_sides}>
         <div className={css.traffic}>
-          <span>100K</span>
+          <span>1.5m</span>
           <span>Monthly Traffics</span>
         </div>
         <div className={css.customers}>
+          <span>100K</span>
           <span>Happy customers</span>
         </div>
       </div>
