@@ -16,7 +16,6 @@
     width: 37rem;
     position: absolute;
     bottom: 0;
-    top: rem;
 }
 
 .blueCircle {
@@ -29,10 +28,26 @@
     position: absolute;
     bottom: -1rem;
     background-color: #d68189;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+
+}
+
+.cart2 {
+    position: relative;
+    bottom: 0%;
+    left: 22rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cart2>svg {
+    width: 30px;
+    height: 30px;
+    background: #d68189;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(114, 103, 103);
+
 }
 
 .h_sides {
