@@ -44,7 +44,11 @@
     background: white;
     padding: 10px;
     border-radius: 50%;
-    border: 6px solid var(--black);
+    border: 3px solid #53777a;
+    position: relative;
+    right: 40%;
+    cursor: pointer;
+
 }
 
 .signup {
@@ -56,22 +60,29 @@
     font-size: 0.9rem;
     border-radius: 15px;
     box-shadow: var(--shadow1);
-
+    border: 2px solid #53777a;
+    position: relative;
+    right: 40%;
+    cursor: pointer;
 }
 
 .signup>:first-child {
     display: block;
-    width: 6rem;
+    width: 6.5rem;
+    cursor: pointer;
+
 }
 
 .signup>:nth-child(2) {
     border-radius: 50%;
-    border: 1px solid #53777a;
+    display: flex;
+    border: 1.5px solid #53777a;
     width: 20px;
     height: 20px;
     padding: 5px;
+    font-size: larger;
     align-items: center;
-
+    justify-content: center;
 
 }
 
