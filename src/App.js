@@ -1,6 +1,7 @@
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/header/Header";
+/* eslint-disable */
 import React, { Component } from "react";
 
 
