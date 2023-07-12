@@ -45,10 +45,7 @@
     padding: 10px;
     border-radius: 50%;
     border: 3px solid #53777a;
-    position: relative;
-    right: 40%;
-    cursor: pointer;
-
+    ;
 }
 
 .signup {
@@ -61,16 +58,13 @@
     border-radius: 15px;
     box-shadow: var(--shadow1);
     border: 2px solid #53777a;
-    position: relative;
-    right: 40%;
-    cursor: pointer;
+    ;
+
 }
 
 .signup>:first-child {
     display: block;
-    width: 6.5rem;
-    cursor: pointer;
-
+    width: 6rem;
 }
 
 .signup>:nth-child(2) {
@@ -80,9 +74,9 @@
     width: 20px;
     height: 20px;
     padding: 5px;
-    font-size: larger;
     align-items: center;
     justify-content: center;
+
 
 }
 
