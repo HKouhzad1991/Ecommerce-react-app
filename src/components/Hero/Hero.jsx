@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Hero.module.css";
-import HeroImg from "../../assets/hero.png";
+import sunskin from "../../assets/sun cream2/4_vinosun_cream_spf50_ingredients_caudalie_en.avif";
+import HeroImg from "../../assets/sun screen cream/Honeyview_intro-1665702977-removebg-preview.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -10,11 +11,17 @@ const Hero = () => {
       {/* left side */}
 
       <div className={css.h_sides}>
-        <span className={css.text1}>Skin Protection Cream</span>
+        <span>Skin Protection Cream</span>
+
+        <div className="sunskin-img">
+          <img src={sunskin} alt="" />
+        </div>
 
         <div className={css.text2}>
           <span>Trendy Collection</span>
+
           <span>
+            {" "}
             Seedily say has suitable disposal and boy. Exercise joy man children
             rejoiced.
           </span>
@@ -39,11 +46,10 @@ const Hero = () => {
 
       <div className={css.h_sides}>
         <div className={css.traffic}>
-          <span>1.5M</span>
-          <span>Monthly Traffic</span>
+          <span>100K</span>
+          <span>Monthly Traffics</span>
         </div>
         <div className={css.customers}>
-          <span>100K</span>
           <span>Happy customers</span>
         </div>
       </div>
