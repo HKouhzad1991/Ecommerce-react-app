@@ -9,19 +9,33 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 2rem;
 }
 
 .wrapper>img {
-    width: 30rem;
+    width: 40rem;
     position: absolute;
     bottom: 0;
-
+    top: rem;
 }
 
+.blueCircle {
+    width: 32rem;
+    height: 30rem;
+    border-radius: 35%;
+    z-index: -99;
+    position: absolute;
+    bottom: -1rem;
+    background-color: #c44d58;
+
+}
 
 .h_sides {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    position: relative;
+    padding: 0.9rem;
+    gap: 1rem;
 }
 
 .text1 {
@@ -53,6 +67,8 @@
     display: flex;
     flex-direction: column;
     text-align: right;
+    bottom: 22rem;
+    position: relative;
 }
 
 .traffic>:first-child {
@@ -64,4 +80,11 @@
     display: flex;
     flex-direction: column;
     text-align: right;
+    bottom: 15rem;
+    position: relative
+}
+
+.customers>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
 }
