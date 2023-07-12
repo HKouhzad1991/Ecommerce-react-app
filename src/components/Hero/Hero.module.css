@@ -22,17 +22,17 @@
 .blueCircle {
     width: 29rem;
     height: 23rem;
-    border-radius: 5%;
+    border-radius: 4%;
     border: 1px solid rgb(238, 218, 218);
     box-shadow: var(--shadow3);
     z-index: -99;
     position: absolute;
     bottom: -1rem;
     background-color: #d68189;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .h_sides {
