@@ -51,3 +51,18 @@
 .name>:nth-child(2) {
     font-size: 0.8rem;
 }
+
+.left-s>:nth-child(2) {
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+
+.left-s>:nth-child(3) {
+    font-size: 0.6rem;
+    border: 1px solid var(--bordercolor);
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+
+}
