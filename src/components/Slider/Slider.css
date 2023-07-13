@@ -67,5 +67,10 @@
 
 }
 .img-p{
-    
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 1rem;
+    width: 20%;
+    height: 100%;
+    bottom: 0;
 }
