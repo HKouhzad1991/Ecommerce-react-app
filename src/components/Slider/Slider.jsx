@@ -15,6 +15,7 @@ const Slider = () => {
         slidesPerView={3}
         spaceBetween={40}
         slidesPerGroup={1}
+        loop={true}
       >
         <SwiperSlide>1</SwiperSlide>
         <SwiperSlide>2</SwiperSlide>
