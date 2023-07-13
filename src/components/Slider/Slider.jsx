@@ -32,7 +32,7 @@ const Slider = () => {
             <div className="left-s">
               <div className="name">
                 <span>{slide.name}</span>
-                <span>{slide.details}</span>
+                <span>{slide.detail}</span>
               </div>
               <span>{slide.price}$</span>
 
