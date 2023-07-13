@@ -23,9 +23,11 @@
 
 .s-container .swiper-button-prev {
     left: 6rem;
-    right: 6rem;
+    color: #d68189;
 }
 
 .s-container .swiper-button-next {
     right: 6rem;
+    color: #d68189;
+
 }
