@@ -3,11 +3,17 @@
 
 }
 
-.s-container .swiper{
+.s-container .swiper {
     width: 70%;
     height: 12rem;
     position: unset;
 }
-.s-container .swiper-slide{
-    background: 
+
+.s-container .swiper-slide {
+    background: var(--bg2);
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid var(--bordercolor);
+    padding: 1rem;
+
 }
