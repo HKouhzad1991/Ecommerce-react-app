@@ -12,7 +12,9 @@ const Slider = () => {
   return (
     <div className="s-container">
       <Swiper
-      slidesPerView={3}
+        slidesPerView={3}
+        spaceBetween={40}
+        slidesPerGroup={1}
       >
         <SwiperSlide>1</SwiperSlide>
         <SwiperSlide>2</SwiperSlide>
