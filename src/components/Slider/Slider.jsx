@@ -25,8 +25,11 @@ const Slider = () => {
                 <span>{slide.name}</span>
                 <span>{slide.details}</span>
               </div>
-              <span>slide.price</span>
+              <span>{slide.price}$</span>
+
+              <div>Shop Now</div>
             </div>
+            <img src={slide.img} alt="product" />
           </SwiperSlide>
         ))}
       </Swiper>
