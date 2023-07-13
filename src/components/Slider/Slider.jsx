@@ -18,9 +18,9 @@ const Slider = () => {
         slidesPerGroup={1}
         loop={true}
       >
-        <SwiperSlide>1</SwiperSlide>
-        <SwiperSlide>2</SwiperSlide>
-        <SwiperSlide>3</SwiperSlide>
+        <SwiperSlide>
+        {SliderProducts.map((slide , i) => ())} 
+        </SwiperSlide>
       </Swiper>
     </div>
   );
