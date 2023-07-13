@@ -20,3 +20,12 @@
     position: relative;
 
 }
+
+.s-container .swiper-button-prev {
+    left: 6rem;
+    right: 6rem;
+}
+
+.s-container .swiper-button-next {
+    right: 6rem;
+}
