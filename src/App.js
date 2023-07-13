@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Slider />
-      <Virtual
+      <Virtual/>
     </div>
   );
 }
