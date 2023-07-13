@@ -14,7 +14,7 @@ const Slider = () => {
   return (
     <div className="s-container">
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Navigation, Pagination]}
         className="mySwiper"
         loopFillGroupWithBlank={true}
         slidesPerView={2}
@@ -23,7 +23,6 @@ const Slider = () => {
         loop={true}
         navigation={true}
         pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

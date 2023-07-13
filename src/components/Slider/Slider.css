@@ -1,5 +1,6 @@
 .s-container {
     position: relative;
+    bottom: 7rem;
 
 }
 
@@ -29,6 +30,11 @@
 .s-container .swiper-button-next {
     right: 6rem;
     color: #d68189;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #d68189 !important;
 
 }
 
@@ -66,7 +72,8 @@
     border-radius: 15px;
 
 }
-.img-p{
+
+.img-p {
     transform: rotate(-20deg);
     position: absolute;
     right: 1rem;
