@@ -16,13 +16,12 @@ const Slider = () => {
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         className="mySwiper"
-loopFillGroupWithBlank={}
-
+        loopFillGroupWithBlank={true}
         slidesPerView={2}
         spaceBetween={40}
         slidesPerGroup={1}
         loop={true}
-        navigation
+        navigation={true}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
