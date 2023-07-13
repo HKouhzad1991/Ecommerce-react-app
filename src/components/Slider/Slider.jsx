@@ -25,6 +25,7 @@ const Slider = () => {
                 <span>{slide.name}</span>
                 <span>{slide.details}</span>
               </div>
+              <span>slide.price</span>
             </div>
           </SwiperSlide>
         ))}
