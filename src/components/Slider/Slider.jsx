@@ -15,6 +15,9 @@ const Slider = () => {
     <div className="s-container">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
+        className="mySwiper"
+loopFillGroupWithBlank={}
+
         slidesPerView={2}
         spaceBetween={40}
         slidesPerGroup={1}
