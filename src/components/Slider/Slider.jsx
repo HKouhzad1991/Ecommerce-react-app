@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "./Slider.css";
-import {SliderProducts} from '../../data/products'
+import { SliderProducts } from "../../data/products";
 
 const Slider = () => {
   return (
@@ -18,9 +18,10 @@ const Slider = () => {
         slidesPerGroup={1}
         loop={true}
       >
-        <SwiperSlide>
-        {SliderProducts.map((slide , i) => ())} 
-        </SwiperSlide>
+        {SliderProducts.map((slide, i) => (
+          <SwiperSlide>
+<div className="left-s"></div>          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
