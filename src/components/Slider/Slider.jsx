@@ -1,10 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 //import swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 import "./Slider.css";
 import { SliderProducts } from "../../data/products";
@@ -13,10 +14,16 @@ const Slider = () => {
   return (
     <div className="s-container">
       <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         slidesPerView={3}
         spaceBetween={40}
         slidesPerGroup={1}
         loop={true}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
       >
         {SliderProducts.map((slide, i) => (
           <SwiperSlide>
