@@ -20,7 +20,13 @@ const Slider = () => {
       >
         {SliderProducts.map((slide, i) => (
           <SwiperSlide>
-<div className="left-s"></div>          </SwiperSlide>
+            <div className="left-s">
+              <div className="name">
+                <span>{slide.name}</span>
+                <span>{slide.details}</span>
+              </div>
+            </div>
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
