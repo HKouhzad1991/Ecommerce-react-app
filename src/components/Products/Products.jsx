@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./Products.module.css";
 import Plane from "../../assets/plane.png";
 import { ProductsData } from "../../data/products";
@@ -16,13 +16,11 @@ const Products = () => {
           <li>Conditioners</li>
           <li>Foundations</li>
         </ul>
-              <div className={css.list}>
-                  {
-                      MenuProducts.map((product, i)=>{
-                      
-                      })
-                   }
-                </div>
+        <div className={css.list}>
+          {MenuProducts.map((product, i) => (
+            <div className={css.Product}></div>
+          ))}
+        </div>
       </div>
     </div>
   );
