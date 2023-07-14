@@ -6,10 +6,15 @@ const Products = () => {
   return (
     <div className={css.container}>
       <img src={Plane} alt="" />
-          <h1>Our Feature Products</h1>
-          <div className={css.Products}>
-          <ul className={css.menu}></ul>
-          </div>
+      <h1>Our Feature Products 2023</h1>
+      <div className={css.Products}>
+        <ul className={css.menu}>
+          <li>All</li>
+          <li>Skin Care</li>
+          <li>Conditioners</li>
+          <li>Foundations</li>
+        </ul>
+      </div>
     </div>
   );
 };
