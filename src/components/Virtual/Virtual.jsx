@@ -16,7 +16,9 @@ const Virtual = () => {
       </div>
 
       <div className={css.right}>
-        <ReactCompareImage leftImage={Before} rightImage={After} />
+        <div className={css.wrapper}>
+          <ReactCompareImage leftImage={Before} rightImage={After} />
+        </div>
       </div>
     </div>
   );
