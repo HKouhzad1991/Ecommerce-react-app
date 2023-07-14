@@ -29,16 +29,16 @@
 
 .left>:nth-child(3) {
     font-size: 1.6rem;
-   font-weight: bold;
+    font-weight: bold;
 }
 
-.left>img{
-position: absolute;
-width: 10rem;
-bottom: 6rem;
+.left>img {
+    position: absolute;
+    width: 10rem;
+    bottom: 2.5rem;
 
 }
 
-.wrapper{
-    width: 35rem;
+.wrapper {
+    width: 30rem;
 }

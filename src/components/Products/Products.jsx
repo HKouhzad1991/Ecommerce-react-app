@@ -1,13 +1,13 @@
-import React from 'react'
-import './Products.module.css'
+import React from "react";
+import css from "./Products.module.css";
+import Plane from '../../assets/plane.png'
 
 const Products = () => {
   return (
-    <div>
-      
+    <div className={css.container}>
+      <img src={Plane} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default Products
-
+export default Products;
