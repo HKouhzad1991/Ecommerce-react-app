@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Virtual.module.css";
 import Shade from "../../assets/shade.png";
+import ReactCompareImage from "react-compare-image";
 
 const Virtual = () => {
   return (
@@ -12,7 +13,9 @@ const Virtual = () => {
         <img src={Shade} alt="" />
       </div>
 
-      <div className={css.right}>Virtual component</div>
+      <div className={css.right}>
+        <ReactCompareImage leftImage={Before} rightImage={After} />
+      </div>
     </div>
   );
 };
