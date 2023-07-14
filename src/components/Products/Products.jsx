@@ -16,7 +16,13 @@ const Products = () => {
           <li>Conditioners</li>
           <li>Foundations</li>
         </ul>
-        <div className={css.list}></div>
+              <div className={css.list}>
+                  {
+                      MenuProducts.map((product, i)=>{
+                      
+                      })
+                   }
+                </div>
       </div>
     </div>
   );
