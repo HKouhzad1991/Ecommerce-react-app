@@ -18,7 +18,14 @@ const Products = () => {
         </ul>
         <div className={css.list}>
           {MenuProducts.map((product, i) => (
-            <div className={css.Product}>Products</div>
+            <div className={css.Product}>
+              <div className="left-s">
+                <div className="name">
+                  <span>{product.name}</span>
+                  <span>{product.detail}</span>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
