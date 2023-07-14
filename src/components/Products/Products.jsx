@@ -24,6 +24,7 @@ const Products = () => {
                   <span>{product.name}</span>
                   <span>{product.detail}</span>
                 </div>
+                <span>{product.price}</span>
               </div>
             </div>
           ))}
