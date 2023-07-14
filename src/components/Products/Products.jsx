@@ -27,7 +27,7 @@ const Products = () => {
                 <span>{product.price}$</span>
                 <div>Show Now</div>
               </div>
-              <img src={product.img} alt="" />
+              <img src={product.img} alt="" className="img-p" />
             </div>
           ))}
         </div>
