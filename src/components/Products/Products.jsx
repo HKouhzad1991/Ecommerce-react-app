@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Products.module.css";
 import Plane from "../../assets/plane.png";
+import { ProductsData } from "../../data/products";
 
 const Products = () => {
   return (
@@ -13,7 +14,9 @@ const Products = () => {
           <li>Skin Care</li>
           <li>Conditioners</li>
           <li>Foundations</li>
-        </ul>
+              </ul>
+              <div className={css.list}></div>
+
       </div>
     </div>
   );
