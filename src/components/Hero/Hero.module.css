@@ -22,14 +22,17 @@
 .blueCircle {
     width: 29rem;
     height: 23rem;
-    border-radius: 4%;
-    border: 1px solid rgb(238, 218, 218);
+    border-radius: 5%;
+    border: 1px solid rgb(143, 137, 137);
     box-shadow: var(--shadow3);
     z-index: -99;
     position: absolute;
     bottom: -1rem;
     background-color: var(--bg2);
-
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
 
 .cart2 {
