@@ -8,6 +8,7 @@ import Testimonails from "./components/Testimonials/Testimoinals";
 
 /* eslint-disable */
 import React, { Component } from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Virtual />
       <Products />
       <Testimonails />
+      <Footer />
     </div>
   );
 }
