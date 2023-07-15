@@ -94,3 +94,7 @@
     background: rgb(198, 198, 198);
     border: none;
 }
+
+.testimonial>span:nth-of-type(2) {
+    font-weight: 500;
+}
