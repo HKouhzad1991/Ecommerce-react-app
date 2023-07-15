@@ -70,3 +70,12 @@
 .icon {
     width: 30px;
 }
+
+.copyRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 2rem;
+}
