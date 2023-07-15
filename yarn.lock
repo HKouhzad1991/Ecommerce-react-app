@@ -1886,18 +1886,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formkit/auto-animate@npm:^1.0.0-beta.1":
-  version: 1.0.0-pre-alpha.3
-  resolution: "@formkit/auto-animate@npm:1.0.0-pre-alpha.3"
-  peerDependencies:
-    react: ^16.8.0
-    vue: ^3.0.0
-  peerDependenciesMeta:
-    react:
-      optional: true
-    vue:
-      optional: true
-  checksum: d0d5fa8a32c4614d33ffba3d56f184a23161d82139e090f39778457673d2450b353a46b59d7468089850fcfbc3b0897371ae1888b713349caf1bf760687369ad
+"@formkit/auto-animate@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@formkit/auto-animate@npm:0.7.0"
+  checksum: c714bf960946eddd3abbe339e43dcfc972a193fa2717d1c9c3d89a3acc6590dc68ee3e366ed473f5e9f359d4ef6daa46d75649d963c795ab06da8bbadb5d71a3
   languageName: node
   linkType: hard
 
@@ -3790,7 +3782,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "amazon@workspace:."
   dependencies:
-    "@formkit/auto-animate": ^1.0.0-beta.1
+    "@formkit/auto-animate": ^0.7.0
     "@heroicons/react": v1
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0

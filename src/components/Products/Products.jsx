@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import css from "./Products.module.css";
 import Plane from "../../assets/plane.png";
 import { ProductsData } from "../../data/products";
