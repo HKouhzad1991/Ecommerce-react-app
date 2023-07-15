@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const transition = { duration: 2.5, type: "spring" };
+  const transition = { duration: 3, type: "spring" };
 
   return (
     <div className={CSS.container}>
@@ -45,7 +45,12 @@ const Hero = () => {
           width={600}
         />
 
-        <motion.div className={css.cart2}>
+        <motion.div
+          transition={transition}
+          initial={{ right: "4rem" }}
+          whileInView={{ right: "2rem" }}
+          className={css.cart2}
+        >
           <RiShoppingBagFill />
           <div className={css.signup}>
             <span>Best signup Offers</span>

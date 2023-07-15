@@ -2,6 +2,7 @@ import React from "react";
 import css from "./Header.module.css";
 import AMAZON from "../../assets/beauty/logo.svg";
 import { CgShoppingBag } from "react-icons/cg";
+import {GoThreeBars} from "react-icons/go"
 
 const Header = () => {
   return (
@@ -12,6 +13,10 @@ const Header = () => {
       </div>
 
       <div className={css.right}>
+        <GoThreeBars/>
+        <div className={css.bars}>
+        
+        </div>
         <div className={css.menu}>
           <ul className={css.menu}>
             <li>Collection</li>
