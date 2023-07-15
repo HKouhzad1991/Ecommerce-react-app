@@ -19,7 +19,7 @@ const Products = () => {
           <li onClick={() => filter("all")}>All</li>
           <li onClick={() => filter("skin care")}>Skin Care</li>
           <li onClick={() => filter("conditioner")}>Conditioners</li>
-          <li onClick={() => filter("foundations")}>Foundations</li>
+          <li onClick={() => filter("foundation")}>Foundation</li>
         </ul>
         <div className={css.list}>
           {MenuProducts.map((product, i) => (
