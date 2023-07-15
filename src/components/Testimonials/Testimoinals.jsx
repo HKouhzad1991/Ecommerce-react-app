@@ -38,7 +38,7 @@ const Testimoinals = () => {
           {TestimonialsData.map((testimonial,i)=>(
             <SwiperSlide>
               <div className={css.testimonial}>
-                <img src={testimonial.img} alt="" />
+                <img src={testimonial.image} alt="" />
                 <span>{testimonial.comment}</span>
                 <hr />
                 <span>{testimonial.name}</span>

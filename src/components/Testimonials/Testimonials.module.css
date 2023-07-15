@@ -71,3 +71,10 @@
     box-shadow: 0rem 1rem 3rem -35px #7d7d7d;
 
 }
+
+.testimonial>img{
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
+    left: 45%;
+}
