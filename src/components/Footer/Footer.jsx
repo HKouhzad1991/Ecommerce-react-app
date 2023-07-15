@@ -8,6 +8,7 @@ import {
   UsersIcon,
   LinkIcon,
   LocationMarkerIcon,
+  InboxInIcon,
 } from "@heroicons/react/outline";
 import css from "./Footer.module.css";
 
@@ -32,12 +33,21 @@ const Footer = () => {
 
             <span className={css.pngLine}>
               <PhoneIcon className={css.icon} />
-              <a
-                href="https://github.com/HKouhzad1991/HKouhzad1991"
-                className=""
-              >
-                support:Hossein-Kouhzad
-              </a>
+              <a href="tel:+989113191788">tel:+98-911-319-1788</a>
+            </span>
+
+            <span className={css.pngLine}>
+              <InboxInIcon className={css.icon} />
+              <a href="https://hosseinkouhzad2017@gmail.com">support: Gmail</a>
+            </span>
+          </div>
+        </div>
+        <div className={css.block}>
+          <div className={css.detail}>
+            <span>Account</span>
+            <span className={css.pngLine}>
+              <LoginIcon className={css.icon} />
+              <span>sign in</span>
             </span>
           </div>
         </div>
