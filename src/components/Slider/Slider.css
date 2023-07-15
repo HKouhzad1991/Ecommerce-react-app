@@ -1,6 +1,6 @@
 .s-container {
     position: relative;
-    bottom: 7rem;
+    bottom: 12.5rem;
 
 }
 
@@ -11,10 +11,10 @@
 }
 
 .s-container .swiper-slide {
-    background: var(--bg2);
+    background: #f1d4af;
     display: flex;
     border-radius: 10px;
-    border: 2px solid var(--bordercolor);
+    border: 1px solid var(--bordercolor);
     padding: 1rem;
     box-sizing: border-box;
     overflow: hidden;

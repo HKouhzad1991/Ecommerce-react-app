@@ -13,17 +13,18 @@
 }
 
 .logo>img {
-    width: 3rem;
-    margin-right: 25rem;
-
+    width: 4rem;
+    margin-left: -30rem;
+    position: absolute;
 }
 
 
 
 .logo>span {
-    font-weight: 500;
-    /* gap: 1rem; */
-    margin-right: 25rem;
+    font-weight: 800;
+    position: absolute;
+    margin-right: 27rem;
+    margin-top: 5rem;
     color: #d68189;
     font-size: 1.2rem;
 
@@ -60,7 +61,7 @@
     border: 0.5px solid rgb(114, 103, 103);
     border-radius: 5px;
     padding: 0.5rem;
-    background-color: #d68189;
+    background-color: #f1d4af;
 }
 
 .cart {
