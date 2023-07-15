@@ -13,6 +13,10 @@ const Testimoinals = () => {
         </span>
       </div>
       <img src={Hero2} alt="" />
+      <div className={css.container}>
+        <span>100k</span>
+        <span>Happy Customers with us</span>
+      </div>
     </div>
   );
 };
