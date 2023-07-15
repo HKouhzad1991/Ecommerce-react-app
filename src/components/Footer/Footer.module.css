@@ -28,10 +28,26 @@
 .logo>img {
     width: 5rem;
     height: 5rem;
-    
+
 }
 
 .logo>span {
     font-weight: 800;
     font-size: 1.5rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 12rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    font-size: 0.7rem;
+    gap: 1rem;
+    font-style: italic;
 }
