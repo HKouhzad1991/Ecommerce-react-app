@@ -3,6 +3,7 @@ import css from "./Hero.module.css";
 import HeroImg from "../../assets/sun screen cream/Honeyview_intro-1665702977-removebg-preview.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
+import {motion} from "framer-motion"
 
 const Hero = () => {
   return (
