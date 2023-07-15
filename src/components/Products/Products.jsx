@@ -16,7 +16,7 @@ const Products = () => {
       <h1>Our Feature Products 2023</h1>
       <div className={css.Products}>
         <ul className={css.menu}>
-          <li onClick={() => filter("all")}>All</li>
+          <li onClick={() =>setMenuProducts(ProductsData)}>All</li>
           <li onClick={() => filter("skin care")}>Skin Care</li>
           <li onClick={() => filter("conditioner")}>Conditioners</li>
           <li onClick={() => filter("foundation")}>Foundation</li>
