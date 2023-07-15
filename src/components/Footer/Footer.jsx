@@ -42,6 +42,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
+
         <div className={css.block}>
           <div className={css.detail}>
             <span>Account</span>
@@ -51,6 +52,33 @@ const Footer = () => {
             </span>
           </div>
         </div>
+
+        <div className={css.block}>
+          <div className={css.detail}>
+            <span>Company</span>
+            <span className={css.pngLine}>
+              <UsersIcon className={css.icon} />
+              <a href="/about">
+                <p>About Us</p>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <div className={css.block}>
+          <div className={css.detail}>
+            <span>Resources</span>
+            <span className={css.pngLine}>
+              <LinkIcon className={css.icon} />
+              <p>Safety Privacy & Terms</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className={css.copyRight}>
+        <span>Copyright @2023 by Amazon, Inc.</span>
+        <span>All rights reserved.</span>
       </div>
     </div>
   );
