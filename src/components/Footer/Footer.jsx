@@ -20,6 +20,11 @@ const Footer = () => {
           <img src={Logo} alt="" />
           <span>Hossein Kouhzad</span>
         </div>
+        <div className={css.block}>
+          <div className={css.details}>
+            <span>Contact Us</span>
+          </div>
+        </div>
       </div>
     </div>
   );
