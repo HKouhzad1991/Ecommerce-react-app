@@ -6,16 +6,18 @@ const Testimoinals = () => {
   return (
     <div className={css.testimnials}>
       <div className={css.wrapper}>
-        <span>Top Rated</span>
-        <span>
-          SEEDILY SAY HAS SUITABLE DISPOSAL AND BOY. EXERCISE JOY MAN CHILDREN
-          REJOICED.
-        </span>
-      </div>
-      <img src={Hero2} alt="" />
-      <div className={css.container}>
-        <span>100k</span>
-        <span>Happy Customers with us</span>
+        <div className={css.container}>
+          <span>Top Rated</span>
+          <span>
+            SEEDILY SAY HAS SUITABLE DISPOSAL AND BOY. EXERCISE JOY MAN CHILDREN
+            REJOICED.
+          </span>
+        </div>
+        <img src={Hero2} alt="" />
+        <div className={css.container}>
+          <span>100k</span>
+          <span>Happy Customers with us</span>
+        </div>
       </div>
     </div>
   );

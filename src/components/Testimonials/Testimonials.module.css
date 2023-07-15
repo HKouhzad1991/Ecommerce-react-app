@@ -6,3 +6,15 @@
     padding: 0rem 2rem;
 
 }
+
+.wrapper {
+    display: grid;
+    align-items: flex-end;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.wrapper>img{
+    width: 25%;
+    justify-content: center;
+}
