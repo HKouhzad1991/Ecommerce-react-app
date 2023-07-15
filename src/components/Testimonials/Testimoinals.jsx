@@ -1,12 +1,14 @@
-import React from 'react'
-import css from './Testimonials.module.css'
+import React from "react";
+import css from "./Testimonials.module.css";
 
 const Testimoinals = () => {
   return (
-    <div>
-      
+    <div className={css.testimnials}>
+          <div className={css.wrapper}>
+          
+          </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimoinals
+export default Testimoinals;
