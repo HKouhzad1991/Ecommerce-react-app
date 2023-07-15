@@ -7,6 +7,7 @@ import {
   LoginIcon,
   UsersIcon,
   LinkIcon,
+  LocationMarkerIcon,
 } from "@heroicons/react/outline";
 import css from "./Footer.module.css";
 
@@ -22,8 +23,10 @@ const Footer = () => {
         </div>
         <div className={css.block}>
           <div className={css.details}>
-                      <span>Contact Us</span>
-                      <span>css.pngLine</span>
+            <span>Contact Us</span>
+                      <span className={css.pngLine}>
+                      <LocationMarkerIcon className={css.icon} />
+                      </span>
           </div>
         </div>
       </div>
