@@ -1,4 +1,4 @@
-.testimonials {
+.testimonials{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,5 +42,21 @@
 
 .wrapper>:nth-child(3) {
     text-align: right;
+
+}
+
+.reviews {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel {
+    width:100%;
+}
+
+t.Carousel{
+padding: 2rem;
+
 
 }

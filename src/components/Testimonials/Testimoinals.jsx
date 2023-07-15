@@ -3,10 +3,13 @@ import css from "./Testimonials.module.css";
 import Hero2 from "../../assets/testimonialHero.png";
 import { TestimonialsData } from "../../data/testimonials";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Testimoinals = () => {
   return (
-    <div className={css.testimnials}>
+    <div className={css.testimonials}>
       <div className={css.wrapper}>
         <div className={css.container}>
           <span>Top Rated</span>
@@ -23,19 +26,25 @@ const Testimoinals = () => {
       </div>
 
       {/* carousal review sec */}
+      <div className={css.reviews}>Reviews</div>
 
       <div className={css.carousal}>
-        <Swiper>
-          {TestimonialsData.map((testimnials, i) => {
+        <Swiper
+          slidesPerView={3}
+          slidesPerGroup={1}
+          spaceBetween={20}
+          className={css.tCarousal}
+        >
+          {TestimonialsData.map((testimonial, i) => (
             <SwiperSlide>
-              <div className={css.Testimonial}>
-                <img src={testimonial.img} alt="" />
+              <div className={css.testimonial}>
+                <img src={testimonial.image} alt="" />
                 <span>{testimonial.comment}</span>
                 <hr />
                 <span>{testimonial.name}</span>
               </div>
-            </SwiperSlide>;
-          })}
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>
