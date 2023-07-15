@@ -4,6 +4,8 @@ import Products from "./components/Products/Products";
 import Slider from "./components/Slider/Slider";
 import Virtual from "./components/Virtual/Virtual";
 import Header from "./components/header/Header";
+import Testimonails from "./components/Testimonials/Testimoinals";
+
 /* eslint-disable */
 import React, { Component } from "react";
 
@@ -15,6 +17,7 @@ function App() {
       <Slider />
       <Virtual />
       <Products />
+      <Testimonails />
     </div>
   );
 }
