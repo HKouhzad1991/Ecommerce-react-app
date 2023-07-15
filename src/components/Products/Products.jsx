@@ -23,7 +23,7 @@ const Products = () => {
           <li onClick={() => filter("conditioner")}>Conditioners</li>
           <li onClick={() => filter("foundation")}>Foundation</li>
         </ul>
-        <div className={css.list}>
+        <div className={css.list} ref={parent}>
           {MenuProducts.map((product, i) => (
             <div className={css.Product}>
               <div className="left-s">
