@@ -22,7 +22,7 @@ const Footer = () => {
           <span>Hossein Kouhzad</span>
         </div>
         <div className={css.block}>
-          <div className={css.details}>
+          <div className={css.detail}>
             <span>Contact Us</span>
                       <span className={css.pngLine}>
                       <LocationMarkerIcon className={css.icon} />
