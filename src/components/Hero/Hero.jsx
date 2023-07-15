@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const transition = { duration: 3, type: "spring" };
+  const transition = { duration: 2.5, type: "spring" };
 
   return (
     <div className={CSS.container}>
@@ -30,13 +30,22 @@ const Hero = () => {
       {/*middle side hero image  */}
       <div className={css.wrapper}>
         <motion.div
-          initial={{ bottom: "2rem" }}
-          whileInView={{ bottom: "0rem" }}
+          initial={{ bottom: "4rem" }}
+          whileInView={{ bottom: "-1rem" }}
           className={css.blueCircle}
           transition={transition}
         ></motion.div>
-        <img src={HeroImg} alt="" width={600} />
-        <div className={css.cart2}>
+
+        <motion.img
+          transition={transition}
+          initial={{ bottom: "-2rem" }}
+          whileInView={{ bottom: "0rem" }}
+          src={HeroImg}
+          alt=""
+          width={600}
+        />
+
+        <motion.div className={css.cart2}>
           <RiShoppingBagFill />
           <div className={css.signup}>
             <span>Best signup Offers</span>
@@ -44,7 +53,7 @@ const Hero = () => {
               <BsArrowRight />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       {/* right side */}
 
