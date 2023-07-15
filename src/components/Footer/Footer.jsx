@@ -22,7 +22,8 @@ const Footer = () => {
         </div>
         <div className={css.block}>
           <div className={css.details}>
-            <span>Contact Us</span>
+                      <span>Contact Us</span>
+                      <span>css.pngLine</span>
           </div>
         </div>
       </div>
