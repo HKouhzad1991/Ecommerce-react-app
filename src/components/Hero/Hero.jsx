@@ -27,6 +27,9 @@ const Hero = () => {
 
       {/*middle side hero image  */}
       <div className={css.wrapper}>
+        <motion.div
+          initial={{ bottom: "2rem" }}
+        whileInView={{bottom: "0rem"}}></motion.div>
         <div className={css.blueCircle}></div>
         <img src={HeroImg} alt="" width={600} />
         <div className={css.cart2}>
