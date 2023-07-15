@@ -35,16 +35,17 @@ const Testimoinals = () => {
           spaceBetween={20}
           className={css.tCarousal}
         >
-          {TestimonialsData.map((testimonial, i) => (
+          {TestimonialsData.map((testimonial,i)=>(
             <SwiperSlide>
               <div className={css.testimonial}>
-                <img src={testimonial.image} alt="" />
+                <img src={testimonial.img} alt="" />
                 <span>{testimonial.comment}</span>
                 <hr />
                 <span>{testimonial.name}</span>
               </div>
             </SwiperSlide>
-          ))}
+          ))
+                  }
         </Swiper>
       </div>
     </div>

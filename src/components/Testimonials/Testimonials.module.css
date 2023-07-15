@@ -1,4 +1,4 @@
-.testimonials{
+.testimonials {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,8 +11,6 @@
     align-items: flex-end;
     width: 100%;
     grid-template-columns: 1fr 2fr 1fr;
-    position: relative;
-    top: 5rem;
 }
 
 .wrapper>img {
@@ -34,7 +32,7 @@
 }
 
 .container>:nth-child(2) {
-    font-size: 1rem;
+    font-size: 0.8rem;
     display: block;
     text-transform: uppercase;
 
@@ -51,12 +49,11 @@
     font-weight: bold;
 }
 
-.carousel {
-    width:100%;
+.carousal {
+    width: 100%;
 }
 
-t.Carousel{
-padding: 2rem;
-
+.tCarousal {
+    padding: 2rem;
 
 }
