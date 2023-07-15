@@ -19,6 +19,13 @@ const Testimoinals = () => {
           <span>Happy Customers with us</span>
         </div>
       </div>
+
+          {/* carousal review sec */}
+          
+          <div className={css.carousal}>
+          <Swiper></Swiper>
+          </div>
+          
     </div>
   );
 };
