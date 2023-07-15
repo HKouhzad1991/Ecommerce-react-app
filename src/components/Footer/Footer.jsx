@@ -16,8 +16,9 @@ const Footer = () => {
       <hr />
 
       <div className={css.cFooter}>
-        <div className={css.cLogo}>
+        <div className={css.logo}>
           <img src={Logo} alt="" />
+          <span>Hossein Kouhzad</span>
         </div>
       </div>
     </div>
