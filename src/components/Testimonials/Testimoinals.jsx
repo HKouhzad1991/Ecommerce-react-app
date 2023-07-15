@@ -3,6 +3,7 @@ import css from "./Testimonials.module.css";
 import Hero2 from "../../assets/testimonialHero.png";
 import Swiper from "swiper";
 import {TestimonialsData} from "../../data/testimonials"
+import { SwiperSlide } from "swiper/react";
 
 const Testimoinals = () => {
   return (
@@ -26,7 +27,9 @@ const Testimoinals = () => {
 
       <div className={css.carousal}>
               <Swiper>
-              {TestimonialsData.map(())}
+                  {TestimonialsData.map((testimnials, i) => {
+                  <SwiperSlide></SwiperSlide>
+              })}
               </Swiper>
       </div>
     </div>
