@@ -12,6 +12,7 @@ const Products = () => {
     setMenuProducts(ProductsData.filter((Product) => Product.type === type));
   };
 
+  
   return (
     <div className={css.container}>
       <img src={Plane} alt="" />
