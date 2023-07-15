@@ -28,10 +28,12 @@ const Testimoinals = () => {
         <Swiper>
           {TestimonialsData.map((testimnials, i) => {
             <SwiperSlide>
-                <div className={css.Testimonial}>
-                    <img src={testimonial.img} alt="" />
-                    <span>{testimonial.comment }</span>
-                </div>
+              <div className={css.Testimonial}>
+                <img src={testimonial.img} alt="" />
+                <span>{testimonial.comment}</span>
+                <hr />
+                <span>{testimonial.name}</span>
+              </div>
             </SwiperSlide>;
           })}
         </Swiper>
