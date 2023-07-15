@@ -1,6 +1,8 @@
 import React from "react";
 import css from "./Testimonials.module.css";
 import Hero2 from "../../assets/testimonialHero.png";
+import Swiper from "swiper";
+import {TestimonialsData} from "../../data/testimonials"
 
 const Testimoinals = () => {
   return (
@@ -20,12 +22,13 @@ const Testimoinals = () => {
         </div>
       </div>
 
-          {/* carousal review sec */}
-          
-          <div className={css.carousal}>
-          <Swiper></Swiper>
-          </div>
-          
+      {/* carousal review sec */}
+
+      <div className={css.carousal}>
+              <Swiper>
+              {TestimonialsData.map(())}
+              </Swiper>
+      </div>
     </div>
   );
 };
