@@ -4,11 +4,11 @@ import Plane from "../../assets/plane.png";
 import { ProductsData } from "../../data/products";
 
 const Products = () => {
-    const [MenuProducts, setMenuProducts] = useState(ProductsData);
-    
-    const filter = (type) => {
-    setMenuProducts(ProductsData.filter(()))
-}
+  const [MenuProducts, setMenuProducts] = useState(ProductsData);
+
+  const filter = (type) => {
+    setMenuProducts(ProductsData.filter((Product) => Product.type === type));
+  };
 
   return (
     <div className={css.container}>
