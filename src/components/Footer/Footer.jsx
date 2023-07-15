@@ -1,16 +1,27 @@
 import React from "react";
+import Logo from "../../assets/beauty/logo.svg";
+import {
+  InboxIcon,
+  PhoneIcon,
+  LocationMakerIcon,
+  LoginIcon,
+  UsersIcon,
+  LinkIcon,
+} from "@heroicons/react/outline";
 import css from "./Footer.module.css";
 
 const Footer = () => {
-    return <div className={css.cFooterWrapper}>
-        <hr />
-        
-        <div className={css.cFooter}>
-            <div className={css.cLogo}>
-            <img src={Logo} alt="" />
-            </div>
+  return (
+    <div className={css.cFooterWrapper}>
+      <hr />
+
+      <div className={css.cFooter}>
+        <div className={css.cLogo}>
+          <img src={Logo} alt="" />
         </div>
-    </div>;
+      </div>
+    </div>
+  );
 };
 
 export default Footer;
