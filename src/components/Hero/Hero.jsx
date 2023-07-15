@@ -3,9 +3,11 @@ import css from "./Hero.module.css";
 import HeroImg from "../../assets/sun screen cream/Honeyview_intro-1665702977-removebg-preview.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Hero = () => {
+  const transition = { duration: 3, type: "spring" };
+
   return (
     <div className={CSS.container}>
       {/* left side */}
@@ -29,8 +31,10 @@ const Hero = () => {
       <div className={css.wrapper}>
         <motion.div
           initial={{ bottom: "2rem" }}
-        whileInView={{bottom: "0rem"}}></motion.div>
-        <div className={css.blueCircle}></div>
+          whileInView={{ bottom: "0rem" }}
+          className={css.blueCircle}
+          transition={transition}
+        ></motion.div>
         <img src={HeroImg} alt="" width={600} />
         <div className={css.cart2}>
           <RiShoppingBagFill />
