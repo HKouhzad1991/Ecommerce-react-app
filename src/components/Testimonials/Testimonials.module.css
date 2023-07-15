@@ -66,15 +66,24 @@
     border-radius: 0.5rem;
     align-items: center;
     justify-content: center;
+    top: 6rem;
     padding: 1rem;
     gap: 1rem;
     box-shadow: 0rem 1rem 3rem -35px #7d7d7d;
 
 }
 
-.testimonial>img{
+.testimonial>img {
     position: absolute;
-    width: 3rem;
-    top: -1.5rem;
-    left: 45%;
+    width: 5rem;
+    top: -5rem;
+
+}
+
+.testimonial>span:nth-of-type(1) {
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
 }
