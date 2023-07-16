@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import css from "./Header.module.css";
 import AMAZON from "../../assets/beauty/logo.svg";
 import { CgShoppingBag } from "react-icons/cg";
-import {MdMenu } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 
 const Header = () => {
   const [ShowMenu, setShowMenu] = useState(true);
   const toggleMenu = () => {
-    setShowMenu((ShowMenu)=>!ShowMenu)
-  }
+    setShowMenu((ShowMenu) => !ShowMenu);
+  };
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -18,9 +18,12 @@ const Header = () => {
 
       <div className={css.right}>
         <div className={css.bars} onClick={toggleMenu}>
-          <MdMenu/>
+          <MdMenu />
         </div>
-        <div className={css.menu}>
+        <div
+          className={css.menu}
+          style={{ display: ShowMenu ? "inherit" : "none" }}
+        >
           <ul className={css.menu}>
             <li>Collection</li>
             <li>Brands</li>
