@@ -41,6 +41,9 @@ const Testimoinals = () => {
             640: {
               slidesPerView: 2,
             },
+            0: {
+              slidesPerView: 1,
+            },
           }}
         >
           {TestimonialsData.map((testimonial, i) => (
