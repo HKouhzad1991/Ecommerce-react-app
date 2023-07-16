@@ -1,21 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./Header.module.css";
 import AMAZON from "../../assets/beauty/logo.svg";
 import { CgShoppingBag } from "react-icons/cg";
-import {GoThreeBars} from "react-icons/go"
+import {MdMenu } from "react-icons/md";
 
 const Header = () => {
+  const [ShowMenu, setShowMenu] = useState(true);
   return (
     <div className={css.container}>
       <div className={css.logo}>
-        <img src={AMAZON} alt=""/>
+        <img src={AMAZON} alt="" />
         <span>Hossein Kouhzad</span>
       </div>
 
       <div className={css.right}>
-        <GoThreeBars/>
         <div className={css.bars}>
-        
+          <MdMenu/>
         </div>
         <div className={css.menu}>
           <ul className={css.menu}>
