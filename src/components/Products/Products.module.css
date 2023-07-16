@@ -65,12 +65,21 @@
 }
 
 @media screen and (max-width:856px) {
-.container{
-    gap: 1rem ;
-}
+    .container {
+        gap: 1rem;
+    }
 
-.container>:nth-child(1){
-    display: none;
-}
+    .container>:nth-child(1) {
+        display: none;
+    }
+
+    .Product {
+        grid-template-columns: none;
+        gap: 1em;
+    }
+
+    .menu {
+        flex-direction: row;
+    }
 
 }

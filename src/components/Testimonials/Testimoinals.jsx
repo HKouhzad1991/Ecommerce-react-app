@@ -34,8 +34,16 @@ const Testimoinals = () => {
           slidesPerGroup={1}
           spaceBetween={20}
           className={css.tCarousal}
+          breakpoints={{
+            856: {
+              slidesPerView: 3,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+          }}
         >
-          {TestimonialsData.map((testimonial,i)=>(
+          {TestimonialsData.map((testimonial, i) => (
             <SwiperSlide>
               <div className={css.testimonial}>
                 <img src={testimonial.image} alt="" />
@@ -44,8 +52,7 @@ const Testimoinals = () => {
                 <span>{testimonial.name}</span>
               </div>
             </SwiperSlide>
-          ))
-                  }
+          ))}
         </Swiper>
       </div>
     </div>
