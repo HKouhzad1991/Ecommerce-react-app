@@ -20,11 +20,11 @@ const Header = () => {
         <div className={css.bars} onClick={toggleMenu}>
           <MdMenu />
         </div>
-        <div
-          className={css.menu}
-          style={{ display: ShowMenu ? "inherit" : "none" }}
-        >
-          <ul className={css.menu}>
+       
+          <ul
+            className={css.menu}
+            style={{ display: ShowMenu ? "inherit" : "none" }}
+          >
             <li>Collection</li>
             <li>Brands</li>
             <li>New</li>
@@ -32,7 +32,7 @@ const Header = () => {
             <li>Gallery</li>
             <li>ENG</li>
           </ul>
-        </div>
+      
         <input type="text" className={css.search} placeholder="search" />
         <CgShoppingBag className={css.cart} />
       </div>
