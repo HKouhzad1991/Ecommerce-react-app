@@ -63,3 +63,14 @@
     width: 5rem;
     height: 9.5rem;
 }
+
+@media screen and (max-width:856px) {
+.container{
+    gap: 1rem ;
+}
+
+.container>:nth-child(1){
+    display: none;
+}
+
+}
