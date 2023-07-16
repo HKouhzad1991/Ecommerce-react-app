@@ -6,6 +6,9 @@ import {MdMenu } from "react-icons/md";
 
 const Header = () => {
   const [ShowMenu, setShowMenu] = useState(true);
+  const toggleMenu = () => {
+    setShowMenu((ShowMenu)=>!ShowMenu)
+  }
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -14,7 +17,7 @@ const Header = () => {
       </div>
 
       <div className={css.right}>
-        <div className={css.bars}>
+        <div className={css.bars} onClick={}>
           <MdMenu/>
         </div>
         <div className={css.menu}>
