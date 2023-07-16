@@ -17,7 +17,7 @@ const Header = () => {
       </div>
 
       <div className={css.right}>
-        <div className={css.bars} onClick={}>
+        <div className={css.bars} onClick={toggleMenu}>
           <MdMenu/>
         </div>
         <div className={css.menu}>
